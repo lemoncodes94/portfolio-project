@@ -58,10 +58,25 @@ p {
   color: white;
   font-size: 20px;
   border-color: white;
-  border-radius: 5px;
+  border-radius: 6px;
+  border-width: 2px;
   line-height: 27px;
   padding: 12px 30px;
   font-family: var(--branding-font-family);
+}
+
+.btn-branding:hover {
+  background-color: white;
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+  transition: background-color ease-in-out 0.5s;
+}
+
+.btn-branding-outline:hover {
+  background-color: white;
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+  transition: background-color ease-in-out 0.5s;
 }
 
 .project-description {
