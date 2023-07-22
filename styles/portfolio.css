@@ -31,7 +31,7 @@ p {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 25px;
   color: white;
 }
 
@@ -41,29 +41,47 @@ p {
   font-size: 40px;
 }
 
-.about-section {
-  color: white;
+.content-container {
   font-family: var(--branding-font-family);
-  background-color: var(--branding-color);
-  text-align: center;
+  color: var(--branding-color);
   padding: 160px 20px;
 }
-.about-section h1 {
-  font-size: 60px;
+
+.content h1 {
+  font-size: 50px;
 }
-.about-section h2 {
+
+.content h2 {
   line-height: 1.5;
   font-weight: lighter;
-  color: white;
+  color: var(--branding-color);
   font-size: 25px;
 }
-.about-section p {
-  color: white;
+
+.content h3 {
+  font-size: 24px;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.content-container p {
+  color: var(--branding-color);
   font-family: var(--branding-font-family);
 }
-.about-section-content {
+
+.content {
   margin: 30px;
 }
+
+.profile-image img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   color: white;
@@ -123,8 +141,13 @@ p {
     text-align: center;
     padding: 20px;
   }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
 }
 
 img {
   padding-top: 120px;
+  border-radius: 30px;
 }
