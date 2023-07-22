@@ -41,6 +41,29 @@ p {
   font-size: 40px;
 }
 
+.about-section {
+  color: white;
+  font-family: var(--branding-font-family);
+  background-color: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+}
+.about-section h2 {
+  line-height: 1.5;
+  font-weight: lighter;
+  color: white;
+  font-size: 25px;
+}
+.about-section p {
+  color: white;
+  font-family: var(--branding-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background: var(--branding-color);
   color: white;
