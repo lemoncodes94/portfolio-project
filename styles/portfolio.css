@@ -124,6 +124,53 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-width: 90px;
+  max-height: 70px;
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 1800px;
+}
+
+nav {
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 4;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-family: var(--branding-font-family);
+}
+
+nav a:hover {
+  transition: all 100ms ease-in-out;
+  font-style: italic;
+}
+
+nav li.active a {
+  font-style: italic;
+}
+
+img {
+  padding-top: 120px;
+  border-radius: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -145,9 +192,8 @@ p {
     text-align: center;
     padding: 0;
   }
-}
-
-img {
-  padding-top: 120px;
-  border-radius: 30px;
+  .logo {
+    max-width: 70px;
+    max-height: 50px;
+  }
 }
