@@ -68,8 +68,8 @@ p {
 }
 
 .content p {
-  font-size: 25px;
-  font-weight: lighter;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .content-container p {
@@ -163,7 +163,8 @@ p {
   margin: auto;
 }
 
-.work-button a {
+.work-button {
+  padding: 30px;
   text-align: center;
 }
 nav {
@@ -240,13 +241,8 @@ footer p {
   }
   .project-description {
     text-align: center;
-    padding: 0px;
+    padding: 40px;
     font-size: 20px;
-  }
-  .project-image {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
   }
   .profile-image {
     display: block;
@@ -263,7 +259,7 @@ footer p {
   .content p {
     text-align: center;
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
   }
   nav a {
     font-size: 14px;
