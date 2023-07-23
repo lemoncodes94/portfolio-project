@@ -27,7 +27,7 @@ p {
   font-family: var(--branding-font-family);
   background-color: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 90px 20px;
 }
 
 .hero p {
@@ -48,7 +48,7 @@ p {
 .content-container {
   font-family: var(--branding-font-family);
   color: var(--branding-color);
-  padding: 160px 20px;
+  padding: 90px 20px;
 }
 
 .content h1 {
@@ -163,6 +163,9 @@ p {
   margin: auto;
 }
 
+.work-button a {
+  text-align: center;
+}
 nav {
   padding: 0;
 }
@@ -213,6 +216,11 @@ footer .contact-links a:hover {
   background-color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
+footer p {
+  font-family: var(--branding-font-family);
+  color: var(--branding-color);
+  font-size: 15px;
+}
 
 @media (max-width: 800px) {
   h1 {
@@ -232,7 +240,7 @@ footer .contact-links a:hover {
   }
   .project-description {
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     font-size: 20px;
   }
   .project-image {
