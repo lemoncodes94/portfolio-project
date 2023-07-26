@@ -245,6 +245,7 @@ footer p {
     font-size: 20px;
   }
   .profile-image {
+    max-width: 300px;
     display: block;
     margin: 0 auto;
     text-align: center;
