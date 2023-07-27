@@ -156,11 +156,14 @@ p {
 .profile-image {
   border-radius: 40px;
   padding: 10px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .work-image {
   display: block;
   margin: auto;
+  max-width: 600px;
 }
 
 .work-button {
